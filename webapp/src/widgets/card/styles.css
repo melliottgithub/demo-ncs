@@ -1,0 +1,14 @@
+.card {
+    padding: 6px;
+    border-radius: var(--border-radius-medium);
+}
+
+.card-header {
+    color: var(--secondary-1);
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.card-body {
+    color: var(--primary);
+}

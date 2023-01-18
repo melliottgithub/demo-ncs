@@ -1,0 +1,47 @@
+/* Color Palette */
+
+:root {
+  /* The primary color is the main color of the scheme */
+  --primary: #6699cc;
+  --primary-rgb: 102, 153, 204;
+
+  /* The secondary colors are the colors adjacent to the primary color on the color wheel */
+  --secondary-1: #336699;
+  --secondary-1-rgb: 51, 102, 153;
+
+  --secondary-2: #99ccff;
+  --secondary-2-rgb: 153, 204, 255;
+
+  /* The tertiary colors are a combination of the primary and secondary colors */
+  --tertiary-1: #3399cc;
+  --tertiary-1-rgb: 51, 153, 204;
+  --tertiary-2: #66ccff;
+  --tertiary-2-rgb: 102, 204, 255;
+  --tertiary-3: #99e6ff;
+  --tertiary-3-rgb: 153, 230, 255;
+
+  --white: white;
+  --black: black;
+  --black-rgb: 0, 0, 0;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.primary {
+  color: var(--primary);
+}
+
+.secondary-1 {
+  color: var(--secondary-1);
+}
+
+.secondary-2 {
+  color: var(--secondary-2);
+}
+

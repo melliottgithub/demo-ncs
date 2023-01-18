@@ -1,0 +1,70 @@
+:root {
+  /* Define the base border width and style */
+  --base-border-width: 1px;
+  --base-border-style: solid;
+
+  /* Define the scale for border widths */
+  --border-width-thin: 1px;
+  --border-width-medium: 2px;
+  --border-width-thick: 4px;
+
+  --border-radius-small: 4px;
+  --border-radius-medium: 6px;
+}
+
+.border {
+  border-style: var(--base-border-style);
+}
+
+.border-top {
+  border-top-style: var(--base-border-style);
+}
+
+.border-right {
+  border-right-style: var(--base-border-style);
+}
+
+.border-bottom {
+  border-bottom-style: var(--base-border-style);
+}
+
+.border-left {
+  border-left-style: var(--base-border-style);
+}
+
+.border-thin {
+  border-width: var(--border-width-thin);
+}
+
+.border-medium {
+  border-width: var(--border-width-medium);
+}
+
+.border-thick {
+  border-width: var(--border-width-thick);
+}
+
+/* Border color classes */
+.border-primary {
+  border-color: rgb(var(--black-rgb), 0.1);
+}
+
+.border-secondary-1 {
+  border-color: var(--secondary-1);
+}
+
+.border-secondary-2 {
+  border-color: var(--secondary-2);
+}
+
+.border-tertiary-1 {
+  border-color: var(--tertiary-1);
+}
+
+.border-tertiary-2 {
+  border-color: var(--tertiary-2);
+}
+
+.border-tertiary-3 {
+  border-color: var(--tertiary-3);
+}

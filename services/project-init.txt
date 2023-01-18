@@ -1,0 +1,7 @@
+yarn init -y
+yarn add express cors pg dotenv
+yarn add -D nodemon
+yarn add -D eslint
+yarn add -D jest
+
+npx eslint --init

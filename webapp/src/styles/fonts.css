@@ -1,0 +1,42 @@
+:root {
+  /* Define the base font size and line height */
+  --base-font-size: 16px;
+  --base-line-height: 1.5;
+
+  /* Define the scale for font sizes */
+  --font-size-small: 0.875em;
+  /* 14px */
+  --font-size-medium: 1em;
+  /* 16px */
+  --font-size-large: 1.125em;
+  /* 18px */
+  --font-size-xlarge: 1.25em;
+  /* 20px */
+  --font-size-xxlarge: 1.5em;
+  /* 24px */
+}
+
+.font-size-small {
+  font-size: var(--font-size-small);
+  line-height: var(--base-line-height);
+}
+
+.font-size-medium {
+  font-size: var(--font-size-medium);
+  line-height: var(--base-line-height);
+}
+
+.font-size-large {
+  font-size: var(--font-size-large);
+  line-height: var(--base-line-height);
+}
+
+.font-size-xlarge {
+  font-size: var(--font-size-xlarge);
+  line-height: var(--base-line-height);
+}
+
+.font-size-xxlarge {
+  font-size: var(--font-size-xxlarge);
+  line-height: var(--base-line-height);
+}

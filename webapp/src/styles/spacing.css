@@ -1,0 +1,108 @@
+:root {
+  /* Define the base spacing units */
+  --spacing-xxsmall: 4px;
+  --spacing-xsmall: 8px;
+  --spacing-small: 16px;
+  --spacing-medium: 32px;
+  --spacing-large: 64px;
+  --spacing-xlarge: 128px;
+  --spacing-xxlarge: 256px;
+
+  --spacing-max-width: 1024px;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.m-xxsmall {
+  margin: var(--spacing-xxsmall);
+}
+
+.m-xsmall {
+  margin: var(--spacing-xsmall);
+}
+
+.m-small {
+  margin: var(--spacing-small);
+}
+
+.m-medium {
+  margin: var(--spacing-medium);
+}
+
+.m-large {
+  margin: var(--spacing-large);
+}
+
+.m-xlarge {
+  margin: var(--spacing-xlarge);
+}
+
+.m-xxlarge {
+  margin: var(--spacing-xxlarge);
+}
+
+.p-xxsmall {
+  padding: var(--spacing-xxsmall);
+}
+
+.p-xsmall {
+  padding: var(--spacing-xsmall);
+}
+
+.p-xsmall-left {
+  padding-left: var(--spacing-xsmall);
+}
+
+.p-xsmall-right {
+  padding-right: var(--spacing-xsmall);
+}
+
+.p-small {
+  padding: var(--spacing-small);
+}
+
+.p-medium {
+  padding: var(--spacing-medium);
+}
+
+.p-large {
+  padding: var(--spacing-large);
+}
+
+.p-xlarge {
+  padding: var(--spacing-xlarge);
+}
+
+.p-xxlarge {
+  padding: var(--spacing-xxlarge);
+}
+
+.center {
+  text-align: center;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.max-width {
+  max-width: var(--spacing-max-width);
+}
+
+/*
+.justify-left {
+  justify-content: left;
+}
+*/
+
+.justify-center {
+  justify-content: center;
+}

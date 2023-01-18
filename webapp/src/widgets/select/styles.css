@@ -1,0 +1,72 @@
+.selectContainer {
+  border: 1px solid var(--secondary-1);
+  border-radius: var(--border-radius-medium);
+  background-color: var(--white);
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.selectContainer:hover {
+  border-color: var(--secondary-2);
+}
+
+.selectInput {
+  border: 0px;
+  outline-style: none;
+  line-height: 32px;
+  width: calc(100% - 28px);
+  background-color: transparent;
+  color: var(--text-secondary);
+}
+
+.selectInput:hover {
+  border: 0px;
+  outline-style: none;
+}
+
+.selectListItem {
+  display: block;
+  color: var(--text-secondary);
+  line-height: 20px;
+  margin-top: 0px;
+  width: 100%;
+  text-align: left;
+  padding: 6px 12px;
+  margin-left: 0px;
+  border: 0px;
+}
+
+.selectListItem:hover {
+  cursor: pointer;
+}
+
+.selectOptionContainer {
+  border: 1px solid var(--secondary-1);
+  border-bottom-left-radius: var(--border-radius-medium);
+  border-bottom-right-radius: var(--border-radius-medium);
+  overflow-y: visible;
+  overflow-x: hidden;
+  position: absolute;
+  max-height: 220px;
+  z-index: 1000;
+  width: max-content;
+  margin: 1px -25px 0px 0px;
+  padding-bottom: 1px;
+ }
+  
+ .selectOptionFrame {
+  position: relative;
+  width: calc(100% + 25px);
+  padding: 0px;
+ }
+
+ .selectButton {
+  padding: 0px;
+  background-color: transparent;
+  --border-radius: var(--border-radius-medium);
+  border: 0px;
+  vertical-align: middle;
+  height: 38px;
+  border-collapse: collapse;
+ }
